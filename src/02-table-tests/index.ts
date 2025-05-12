@@ -43,6 +43,7 @@ export const simpleCalculator = (
   return null;
 };
 
+
 const isInputValid = (
   input: RawCalculatorInput,
 ): input is ValidCalculatorInput => {
